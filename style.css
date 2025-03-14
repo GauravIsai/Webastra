@@ -52,7 +52,11 @@ body {
 	width: 85%;
 	padding: 0;
 }
+	.six.columns {
+		width: 45%;
+	}
 }
+
 
 /* For devices larger than 550px */
 @media (min-width: 550px) {
@@ -81,7 +85,7 @@ body {
 	width: 39.3333333333%;
 }
 .six.columns {
-	width: 48%;
+	width: 45%;
 }
 .seven.columns {
 	width: 56.6666666667%;
@@ -128,7 +132,7 @@ body {
 	margin-left: 43.3333333333%;
 }
 .offset-by-six.column,  .offset-by-six.columns {
-	margin-left: 52%;
+	margin-left: 55%;
 }
 .offset-by-seven.column,  .offset-by-seven.columns {
 	margin-left: 60.6666666667%;
@@ -296,6 +300,10 @@ header {
 .title h1 {
 	font-size: 65px;
 }
+	.six.columns {
+		width: 45%;
+	}
+
 }
 .title .icon {
 	color: #FFFFFF;
@@ -469,7 +477,7 @@ opacity: 0;
 ********************************************************************* */
 
 #about {
-	padding: 100px 0 50px 0;
+	padding: 100px 0 48px 0;
 }
 /* Team Section
 ********************************************************************* */
@@ -712,3 +720,4 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
 	margin-bottom: 50px;
 }
+
