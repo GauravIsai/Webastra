@@ -53,7 +53,7 @@ body {
 	padding: 0;
 }
 	.six.columns {
-		width: 45%;
+		width: 50%;
 	}
 }
 
@@ -85,7 +85,7 @@ body {
 	width: 39.3333333333%;
 }
 .six.columns {
-	width: 45%;
+	width: 47%;
 }
 .seven.columns {
 	width: 56.6666666667%;
@@ -132,7 +132,7 @@ body {
 	margin-left: 43.3333333333%;
 }
 .offset-by-six.column,  .offset-by-six.columns {
-	margin-left: 55%;
+	margin-left: 53%;
 }
 .offset-by-seven.column,  .offset-by-seven.columns {
 	margin-left: 60.6666666667%;
@@ -600,7 +600,7 @@ input[type="email"], input[type="number"], input[type="search"], input[type="tex
 	padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
 	background-color: #F5F5F5;
 	border: none;
-	box-shadow: none;
+	box-shadow: 0px 4px 8px rgba(128, 128, 128, 0.2);
 	box-sizing: border-box;
 	border-radius: 0;
 	outline: none;
@@ -633,7 +633,7 @@ input[type="submit"]:hover {
 }
 /* Footer Section
 ********************************************************************* */
-footer {
+/*footer {
 	min-height: 120px;
 	padding: 40px 0 40px 0;
 	background: #e55d87;
@@ -650,7 +650,7 @@ footer p {
 .socialIcons {
 	font-size: 34px;
 	color: rgba(255, 255, 255, 0.7);
-}
+}*/
 /* Lists
 ********************************************************************* */
 ul {
@@ -686,6 +686,7 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 .u-full-width {
 	width: 100%;
 	box-sizing: border-box;
+	box-shadow: 0px 4px 8px rgba(128, 128, 128, 0.2);
 }
 .u-max-full-width {
 	max-width: 100%;
@@ -721,3 +722,149 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 	margin-bottom: 50px;
 }
 
+.socialIcons {
+	font-size: 30px; /* Even smaller size */
+	color: #444; /* Neutral dark color */
+	margin: 0 4px; /* Tighter spacing */
+	transition: color 0.3s ease;
+}
+
+/* Hover Colors */
+.facebook:hover {
+	color: #1877F2;
+}
+/* Facebook Blue */
+.instagram:hover {
+	color: #E4405F;
+}
+/* Instagram Pink */
+.linkedin:hover {
+	color: #0077b5;
+}
+/* LinkedIn Blue */
+.whatsapp:hover {
+	color: #25D366;
+}
+/* WhatsApp Green */
+.email:hover {
+	color: #D44638;
+}
+/* Gmail Red */
+
+
+/* Footer Section */
+footer {
+	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+	padding: 40px 0;
+	text-align: center;
+	color: #fff;
+}
+
+/* Footer Text */
+.footer-text {
+	text-align: left;
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+	.footer-text a {
+		color: #fff;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+		.footer-text a:hover {
+			text-decoration: underline;
+		}
+
+/* Social Media Icons */
+.social-icons-container {
+	text-align: right;
+}
+
+.socialIcons {
+	font-size: 28px; /* Adjust icon size */
+	color: #fff; /* Default white color */
+	margin: 0 10px;
+	transition: color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Colors */
+.facebook:hover {
+	color: #1877F2;
+}
+
+.instagram:hover {
+	color: #E4405F;
+}
+
+.linkedin:hover {
+	color: #0077b5;
+}
+
+.whatsapp:hover {
+	color: #25D366;
+}
+
+.email:hover {
+	color: #D44638;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+	.footer-text {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.social-icons-container {
+		text-align: center;
+	}
+}
+
+
+.remote-work {
+	text-align: center;
+	margin-top: 50px;
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+	box-shadow: 0px 4px 8px rgba(128, 128, 128, 0.2); /* Grey shadow */
+}
+
+.office-locations {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	margin-top: 15px;
+}
+
+.office {
+	background: #fff;
+	padding: 15px;
+	border-radius: 8px;
+	box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.15);
+}
+
+	.office h4 {
+		margin-bottom: 5px;
+		font-size: 1.6rem;
+	}
+
+@media only screen and (max-width: 768px) {
+	.office-locations {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+
+.office a {
+	text-decoration: none;
+	color: #1EAEDB; /* Blue color for phone links */
+	font-weight: bold;
+}
+
+	.office a:hover {
+		color: #0FA0CE; /* Slightly darker on hover */
+	}
